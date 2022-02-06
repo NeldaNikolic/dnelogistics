@@ -1,0 +1,27 @@
+.faicon,
+.faicontwo,
+.faiconthree,
+.faiconfour {
+  font-size: 43px;
+  height: 88%;
+  color: rgb(4, 28, 44);
+  padding: 1%;
+  align-items: center;
+}
+/****** iconsForContactPageHover**********/
+.faicon:hover {
+  border-bottom: 5px solid white;
+  color: #91c6d8b7;
+}
+.faicontwo:hover {
+  border-bottom: 5px solid white;
+  color: #edf6f9;
+}
+.faiconthree:hover {
+  border-bottom: 5px solid white;
+  color: #edf6f9;
+}
+.faiconfour:hover {
+  border-bottom: 5px solid white;
+  color: #edf6f9;
+}

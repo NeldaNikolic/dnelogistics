@@ -1,0 +1,58 @@
+.buttonone {
+  display: flex;
+  font-style: bold;
+  position: absolute;
+  height: 8%;
+  width: 12%;
+  right: 23%;
+  border: none;
+  color: white;
+  display: inline;
+  text-align: center;
+  font-size: 1rem;
+  margin: 4px 2px;
+  background-color: rgb(8, 11, 54);
+  border-radius: 5%;
+  box-shadow: 6px 4px 10px #304964;
+  cursor: pointer;
+  top: 72%;
+  font-weight: bold;
+  z-index: 1;
+}
+/****** HistoryButtonHover**********/
+.buttonone:hover {
+  border-bottom: 5px solid rgb(235, 239, 241);
+  filter: opacity(0.8);
+  transform: scale(1.2);
+}
+/****** ViewButtonHover**********/
+
+/****** EmailButton**********/
+.buttonthree {
+  display: flex;
+  font-style: bold;
+  position: absolute;
+  height: 8%;
+  width: 12%;
+  right: 8%;
+  border: none;
+  color: rgb(5, 0, 0);
+  padding: 5px;
+  display: inline;
+  text-align: center;
+  font-size: 1rem;
+  margin: 4px 2px;
+  background-color: #edf6f9;
+  border-radius: 5%;
+  box-shadow: 6px 4px 10px #304964;
+  cursor: pointer;
+  top: 72%;
+  font-weight: bold;
+  z-index: 1;
+}
+/****** EmailButtonHover**********/
+.buttonthree:hover {
+  border-bottom: 5px solid rgb(5, 0, 0);
+  filter: opacity(0.8);
+  transform: scale(1.2);
+}

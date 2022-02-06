@@ -1,0 +1,178 @@
+/******thats the second page ****/
+.aboutmain{
+    display: flex;
+    position: relative;
+    height: 1687.5%;
+    background-color: #edf6f9;
+    flex-wrap: wrap;
+    z-index: 0;
+}
+.aboutIconOne{
+    display: flex;
+    position: absolute;
+    text-align: right;
+    top: 5%;
+    font-size: 550%;
+    left: 5%;
+    z-index: 999;
+    opacity: 0.6;
+    color: rgb(4, 28, 44);
+    flex-wrap: wrap;
+    z-index: 0;
+}
+.aboutIconTwo{
+    display: flex;
+    position: absolute;
+    text-align: right;
+    top: 5%;
+    font-size: 540%;
+    left: 88%;
+    z-index: 999;
+    opacity: 0.6;
+    color: rgb(4, 28, 44);
+    z-index: 1;
+}
+.abouth3Title{
+    height: 10%;
+    display: flex;
+    position: absolute;
+    padding: 3% 13%;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.tableAboutFull{
+    padding: 16%  0 18% 1% ;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    flex-wrap: wrap;
+    z-index: 0;
+}
+.tableDAboutPragraph{
+    padding: 2%;
+    text-align: left;
+    font-size: small;
+    font-weight: lighter;
+    z-index: 1;
+}
+.tableAboutTitleTh{
+    padding: 5%;
+    font-size:1rem;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.buttonAboutone{
+    display: flex;
+    font-style: bold;
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    left: 5%;
+    border: none;
+    color: white;
+    padding: 5px;
+    display: inline;
+    text-align: center;
+    font-size:1rem;
+    margin: 4px 2px;
+    background-color:  rgb(8, 11, 54);
+    border-radius: 5%;
+    box-shadow:  6px 4px 10px #304964;
+    cursor: pointer; 
+    top: 84%; 
+    font-weight: bold;
+    z-index: 1;
+}
+/****** HistoryButtonHover**********/
+.buttonAboutone:hover{
+    border-bottom:5px solid rgb(235, 239, 241) ;
+    filter: opacity(.8) ;
+    transform: scale(1.2);
+}
+.buttonAboutTwo{
+    display: flex;
+    font-style: bold;
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    left: 40%;
+    border: none;
+    color: white;
+    padding: 5px;
+    display: inline;
+    text-align: center;
+    font-size:1rem;
+    margin: 4px 2px;
+    background-color:  rgb(8, 11, 54);
+    border-radius: 5%;
+    box-shadow:  6px 4px 10px #304964;
+    cursor: pointer; 
+    top: 84%; 
+    font-weight: bold;
+    z-index: 1;
+}
+    /****** HistoryButtonHover**********/
+.buttonAboutTwo:hover{
+   border-bottom:5px solid rgb(235, 239, 241) ;
+   filter: opacity(.8) ;
+   transform: scale(1.2); 
+}
+.buttonAboutThree{
+    display: flex;
+    font-style: bold;
+    position: absolute;
+    height: 10%;
+    width:20%;
+    left: 76%;
+    border: none;
+    color: white;
+    padding: 5px;
+    display: inline;
+    text-align: center;
+    font-size:1rem;
+    margin: 4px 2px;
+    background-color:  rgb(8, 11, 54);
+    border-radius: 5%;
+    box-shadow:  6px 4px 10px #304964;
+    cursor: pointer; 
+    top: 84%; 
+    font-weight: bold;
+    z-index: 1;
+}
+    /****** HistoryButtonHover**********/
+.buttonAboutThree:hover{
+   border-bottom:5px solid rgb(235, 239, 241) ;
+   filter: opacity(.8) ;
+   transform: scale(1.2); 
+}
+@media screen and (max-width: 858px){
+    .abouth3Title{
+        font-size: .8rem;
+        padding-bottom: 5%;
+    }
+    .aboutIconOne{
+        font-size: 340%;
+    }
+    .aboutIconTwo{
+        font-size: 340%;
+    }
+    .tableAboutTitleTh{
+        font-size: .5rem;
+        padding-top: 10%;
+    }
+    .tableDAboutPragraph{
+        font-size: .5rem;
+    }
+   
+
+}
+@media screen and (max-width: 640px){
+    .abouth3Title{
+        font-size: .6rem;
+        padding: 0 15%;
+    }
+    .buttonAboutThree{
+        height: 13%;
+    }
+}

@@ -1,0 +1,67 @@
+.infromatonmainDiv {
+  height: 7731.25%;
+  padding-top: 1%;
+  position: relative;
+}
+.infromatonmainDivTwo {
+  height: 5956.25%;
+  background-color: #edf6f9;
+  position: relative;
+  padding-bottom: 15%;
+}
+.infrobutton {
+  display: flex;
+  font-style: bold;
+  position: absolute;
+  height: 6%;
+  width: 22%;
+  border: none;
+  color: white;
+  padding: 5px;
+  display: inline;
+  left: 42%;
+  font-size: 1rem;
+  background-color: rgb(8, 11, 54);
+  border-radius: 5%;
+  box-shadow: 6px 4px 10px #304964;
+  cursor: pointer;
+  font-weight: bold;
+}
+/****** HistoryButtonHover**********/
+.infrobutton:hover {
+  border-bottom: 5px solid rgb(235, 239, 241);
+  filter: opacity(0.8);
+  transform: scale(1.2);
+}
+.infromatonmah2 {
+  font-weight: bold;
+  white-space: nowrap;
+  padding-bottom: 1%;
+}
+.infromatonmainDivThree {
+  padding: 3% 15%;
+}
+.infromatonmah4 {
+  text-align: left;
+}
+.infroiconone {
+  font-size: 30rem;
+  display: flex;
+  position: absolute;
+  padding: 2%;
+  bottom: 1%;
+  right: 0.3%;
+  opacity: 0.04;
+}
+.infroiconTwo {
+  font-size: 30rem;
+  display: flex;
+  position: absolute;
+  padding: 2%;
+  top: 0.1%;
+  left: 0.3%;
+  opacity: 0.04;
+}
+.infroiconh2 {
+  font-size: 35px;
+}

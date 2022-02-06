@@ -1,0 +1,97 @@
+.homepage {
+  background-color: #fff;
+  height: 460px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.code {
+  display: flex;
+  position: absolute;
+  height: 88%;
+  width: 100%;
+  opacity: 0.2;
+  z-index: 1;
+}
+.homepageh1 {
+  font-size: 2.5rem;
+  bottom: 78%;
+  color: rgb(8, 11, 54);
+  display: flex;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  padding: 1%;
+  left: 8%;
+  z-index: 1;
+}
+
+.homepageul {
+  color: rgb(4, 28, 44);
+  text-align: left;
+  padding: 7% 6% 2% 5%;
+  font-size: 0.8rem;
+  text-indent: 2%;
+  line-height: 1.6;
+  top: 10%;
+  display: flex;
+  position: absolute;
+  right: 30%;
+  z-index: 1;
+}
+.iconone {
+  display: flex;
+  position: absolute;
+  text-align: right;
+  top: 30px;
+  font-size: 12rem;
+  left: 95%;
+  z-index: 999;
+  opacity: 0.4;
+  color: rgb(5, 4, 44);
+  opacity: 0.2;
+  z-index: 1;
+}
+.icononetwo {
+  display: flex;
+  position: absolute;
+  text-align: left;
+  top: 30%;
+  font-size: 2.5rem;
+  right: -10%;
+  z-index: 999;
+  opacity: 0.9;
+  color: rgb(4, 28, 44);
+  opacity: 0.2;
+  z-index: 1;
+}
+
+.icononetree {
+  display: flex;
+  position: absolute;
+  text-align: right;
+  top: 1%;
+  font-size: 2.5rem;
+  left: 2%;
+  z-index: 999;
+  opacity: 0.9;
+  color: rgb(4, 28, 44);
+  opacity: 0.2;
+  z-index: 1;
+}
+@media screen and (max-width: 608px) {
+  .homeDivMainDiscription {
+    font-size: 0.6rem;
+  }
+  .homepageh1 {
+    font-size: 1.8rem;
+  }
+  .iconone {
+    font-size: 8rem;
+  }
+  .icononetwo {
+    right: -15%;
+    top: 10%;
+  }
+}
